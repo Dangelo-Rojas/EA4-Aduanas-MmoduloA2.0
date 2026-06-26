@@ -1,0 +1,6 @@
+{
+  "name": "Pre-declaración Digital - Aduanas de Chile",
+  "description": "Sistema oficial de pre-declaración digital conjunta (Aduanas / SAG) para viajeros ingresando a Chile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
