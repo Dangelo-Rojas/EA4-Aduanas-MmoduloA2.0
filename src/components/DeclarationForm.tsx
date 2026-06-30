@@ -209,6 +209,10 @@ export default function DeclarationForm({ user, onSubmit }: DeclarationFormProps
       status: declStatus,
     };
 
+    if (!window.confirm('¿Confirmas el envio de la declaracion?\n\nUna vez transmitida no podras editarla y deberas iniciar un nuevo tramite si hay errores.')) {
+      return;
+    }
+
     onSubmit(newDeclaration);
   };
 
