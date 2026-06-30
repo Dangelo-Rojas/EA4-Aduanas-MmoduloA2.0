@@ -55,6 +55,7 @@ export default function Header({ user, onLogout, onViewHistory, historyCount }: 
               {/* History Button with Badge */}
               <button
                 onClick={onViewHistory}
+                aria-label="Ver historial de pre-declaraciones previas"
                 className="relative flex items-center gap-2 px-3 py-1.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 active:bg-slate-300 rounded-lg transition-colors border border-slate-200 cursor-pointer"
                 title="Ver declaraciones anteriores"
               >
@@ -83,6 +84,7 @@ export default function Header({ user, onLogout, onViewHistory, historyCount }: 
               {/* Logout */}
               <button
                 onClick={onLogout}
+                aria-label="Cerrar sesion del sistema de pre-declaracion"
                 className="p-2 text-slate-500 hover:text-aduana-red hover:bg-red-50 rounded-lg transition-colors border border-transparent hover:border-red-100 cursor-pointer"
                 title="Cerrar sesión"
               >
