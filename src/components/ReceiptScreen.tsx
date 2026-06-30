@@ -156,7 +156,7 @@ export default function ReceiptScreen({ declaration, onReset }: ReceiptScreenPro
             </div>
             
             <span className={`px-2.5 py-1 rounded-full text-xs font-bold font-display uppercase tracking-wider ${statusConfig.badgeBg}`}>
-              {declaration.status}
+              {declaration.status} - VIGENCIA 72H
             </span>
           </div>
 
