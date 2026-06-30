@@ -658,6 +658,8 @@ export default function DeclarationForm({ user, onSubmit }: DeclarationFormProps
                         <input
                           type="number"
                           min="501"
+                          max="1000000"
+                          step="1"
                           placeholder="Ej: 750"
                           value={aduanaValue === 0 ? '' : aduanaValue}
                           onChange={(e) => setAduanaValue(Math.max(0, parseInt(e.target.value) || 0))}
